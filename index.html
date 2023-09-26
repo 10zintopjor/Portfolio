@@ -6,22 +6,23 @@
         <title>Topjor's Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
 <header>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav_item"><a href="" class="nav__link">Home</a></li>
-            <li class="nav_item"><a href="" class="nav__link">My Services</a></li>
-            <li class="nav_item"><a href="" class="nav__link">About Me</a></li>
-            <li class="nav_item"><a href="" class="nav__link">My Work</a></li>
+            <li class="nav_item"><a href="#services" class="nav__link">My Services</a></li>
+            <li class="nav_item"><a href="#about" class="nav__link">About Me</a></li>
+            <li class="nav_item"><a href="#work" class="nav__link">My Work</a></li>
         </ul>
     </nav>
     <div class="logo">
         <img src="" alt="">
     </div>
-    <button class ="toggle_button" aria-label="toggle_navigation">
-        <span class="humburger"></span>
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
     </button>
 </header>
 
@@ -30,14 +31,14 @@
     <h1 class="section__title section__title--intro">
         Hi, I am <strong>Tenzin Topjor</strong>
     </h1>
-    <p class="section__subtitle section__subtitle--into">
+    <p class="section__subtitle section__subtitle--intro">
         Front End Developer, Python Developer
     </p>
     <img src="img/dp.png" alt="">
 </section>
 
 <!-- Services -->
-<section class="services" id="services">
+<section class=".myservices" id="services">
     <h1 class="section__title section__title--services">
         What I do
     </h1>
@@ -65,8 +66,8 @@
 
 <!-- About Me -->
 <section class="aboutme" id ="about">
-    <h2 class="section__title">Who I am </h2>
-    <p class="aboutme_subtitle"></p>
+    <h2 class="section__title section__title--about">Who I am </h2>
+    <p class="section_subtitle section__subtitle--about"></p>
     <div class="aboutme__body">
         <p>This is demo text of about me.</p>
     </div>
